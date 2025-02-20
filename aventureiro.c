@@ -31,7 +31,7 @@ printf("CARTA 1: \n \n");
 printf("Qual estado pertence a carta (coloque de A a H) ? ");
 scanf("%s", estado);
 printf("Qual o número da carta? ");
-scanf("%d", ncarta);
+scanf("%d", &ncarta);
 printf("Qual o nome da cidade? ");
 scanf("%s", nomec);
 
