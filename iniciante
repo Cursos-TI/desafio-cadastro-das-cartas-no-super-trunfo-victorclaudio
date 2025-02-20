@@ -31,12 +31,12 @@ printf("Qual o nome da cidade? ");
 scanf("%s", nomec);
 
 printf("Qual a quantidade de pessoas possui esta cidade? ");
-scanf("%d", populacao);
+scanf("%d", &populacao);
 printf("Qual a área territorial desta cidade? ");
 scanf("%f", &area);
 printf("Qual o pib dessa cidade? ");
 scanf("%f", &pib);
-printf("Quantos pontos turísticos possui a cidade desta carta?");
+printf("Quantos pontos turísticos possui a cidade desta carta? ");
 scanf("%d", &npontosturisticos);
 printf("\n");
 printf("\n");
@@ -46,21 +46,20 @@ printf("\n");
 printf("CARTA 2: ");
 printf("\n");
 
-printf("Qual estado pertence a carta 2? (coloque de A a H)");
+printf("Qual estado pertence a carta 2 (coloque de A a H) ? ");
 scanf("%s", estado2);
 printf("Qual o número da carta 2? ");
-scanf("%d", ncarta2);
-printf("Qual o nome da cidade 2");
+scanf("%d", &ncarta2);
+printf("Qual o nome da cidade 2? ");
 scanf("%s", nomec2);
-
 printf("Qual a quantidade de pessoas possui esta cidade? ");
 scanf("%d", &populacao2);
 printf("Qual a área territorial desta cidade? ");
 scanf("%f", &area2);
 
-printf("Qual PIB dessa cidade?");
+printf("Qual PIB dessa cidade? ");
 scanf("%f", &pib2);
-printf("Quantos pontos turísticos possui a cidade desta carta?");
+printf("Quantos pontos turísticos possui a cidade desta carta? ");
 scanf("%d", &npontosturisticos2);
 
 
@@ -88,6 +87,7 @@ printf("\n"); //comando para pular linha
 //CARTA 2
 printf("\n");
 printf("Carta 2:");
+printf("\n");
 printf("Estado: %s\n", estado2); 
 printf("O código da carta 2 é: %s%d\n", estado2, ncarta2); //vai demonstrar o código da carta
 printf("Nome da cidade: %s\n", nomec2);
